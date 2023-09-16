@@ -12,7 +12,7 @@ const Blogs = ({addToBookmark, addReadingTime}) => {
       .then((data) => setBlogs(data));
   }, []);
   return (
-    <div className="flex flex-col items-center justify-center gap-5">
+    <div className="grid grid-cols-1 place-items-center md:flex md:flex-col md:items-center md:justify-center md:gap-5">
       {blogs.map((blog) => (
         <Blog
           key={blog.id}

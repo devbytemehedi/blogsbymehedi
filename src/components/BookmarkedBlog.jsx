@@ -1,7 +1,7 @@
 import {PropTypes} from "prop-types";
 const BookmarkedBlog = ({title}) => {
   return (
-    <div className="bg-white rounded-lg p-3 w-full h-fit font-semibold">
+    <div className="bg-gray-900 bg-opacity-50 rounded-lg  p-3 w-full h-fit font-semibold">
       {title}
     </div>
   );
